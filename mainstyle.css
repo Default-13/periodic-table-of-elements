@@ -1,0 +1,56 @@
+
+.banner {
+    background-color: rgb(164, 201, 20);
+    padding: 2em;
+    color: white; 
+    border-radius: 1em;
+}
+
+.periodic-table {
+    display: grid;
+}
+
+.periodic-table > li {
+    background-color: antiquewhite;
+    margin: 1em;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+td {
+    border: solid 2px;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 1.5em;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 1.5em;
+    color: white;
+    font-size: small;
+}
+
+li {
+    width: 100px;
+}
+
+.fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
